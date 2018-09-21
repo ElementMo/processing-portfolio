@@ -1,3 +1,5 @@
+import peasy.*;
+
 final int W = 8;
 final int H = 6;
 final int Z = 45;
@@ -34,4 +36,3 @@ void draw()
   popMatrix();
   hint(DISABLE_DEPTH_TEST);
 }
-

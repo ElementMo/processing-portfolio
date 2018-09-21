@@ -3,7 +3,7 @@ final int H = 600;
 
 void setup()
 {
-  size(W, H, P2D);
+  surface.setSize(W, H);
   image_setup();
   minim_setup();
 
@@ -82,4 +82,3 @@ boolean isMouseInside(float x1, float y1, float r)
 {
   return dist( mouseX, mouseY, x1, y1) < r;
 }
-

@@ -38,7 +38,7 @@ Pathfinder pathfinder;
 
 void setup()
 {
-    size(Width, Height);
+    surface.setSize(Width, Height);
     frameRate(30);
     textAlign(LEFT);
     textSize(30);

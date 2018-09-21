@@ -18,7 +18,8 @@ final int pg_scale = 2;
 
 void setup() 
 {
-  size(Width, Height, P2D); 
+  fullScreen(P2D);
+  surface.setSize(Width, Height); 
   frameRate(30);
   font = loadFont("BrowalliaUPC-Bold-96.vlw");
   oscP5 = new OscP5(this, 3334);

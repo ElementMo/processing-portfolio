@@ -2,7 +2,7 @@ rule_def_list rules;
 
 void setup()
 {
-  size(480, 854, A3D);
+  size(480, 854, P3D);
   noStroke();
 
   rule_def rule1 = new rule_def();
@@ -48,7 +48,7 @@ float cam_x=0;
 
 void draw()
 {
-  background(122);
+  background(255);
 
   cam_x+=0.02;
   //  camera(100*cos(cam_x),0,100*sin(cam_x),0,0,0,0,1,0); 
@@ -200,4 +200,3 @@ PVector trans, PVector rot, PVector scale)
 
   popMatrix();
 }
-

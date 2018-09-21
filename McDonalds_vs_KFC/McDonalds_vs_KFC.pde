@@ -100,7 +100,7 @@ void setup()
   //  rectMode(CENTER);
   noCursor();
   noFill();
-  size(Width, Height);
+  surface.setSize(Width, Height);
 }
 
 float body_delta = 10;  
@@ -275,4 +275,3 @@ void game_over()
   fill(0);
   text(error_msg, x, y);
 }
-

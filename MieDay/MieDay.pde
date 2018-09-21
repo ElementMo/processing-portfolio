@@ -22,7 +22,7 @@ void setup()
   accel = new AccelerometerManager(this);
   audio_init();
   orientation(PORTRAIT);
-  size(screenWidth, screenHeight, P2D);
+  surface.setSize(screenWidth, screenHeight, P2D);
   frameRate(30);
   smooth();
   noStroke();
@@ -133,4 +133,3 @@ public void accelerationEvent(float x, float y, float z) {
   ay = y;
   az = z;
 }
-

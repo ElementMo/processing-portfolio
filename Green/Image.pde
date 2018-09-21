@@ -8,7 +8,7 @@ PImage word_white;
 void setupImages()
 {
   println("loading images");
-  String bgFolder = sketchPath + "/data/bg/";
+  String bgFolder = "G:/GitHub/processing-portfolio/Green/data/bg/";
   String[] bgFiles = listFileNames(bgFolder);
   int idx = 0;
   for (String file: bgFiles)
@@ -40,4 +40,3 @@ String[] listFileNames(String dir) {
     return null;
   }
 }
-
